@@ -14,9 +14,9 @@ class AutenticadorController extends Controller
             'password' => 'required|string|confirmed'
         ]);
         $user = new User([
-            'name' => $required->name,
-            'email' => $required->email,
-            'password' => bcrypt($required->password)
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => bcrypt($request->password)
         ]);
 
         $user->save();
@@ -33,8 +33,8 @@ class AutenticadorController extends Controller
         ]);
 
         $credenciais = [
-            'email' => $required->email,
-            'password' => $required->password
+            'email' => $request->email,
+            'password' => $request->password
         ];
 
         Auth::attempt($credenciais);
