@@ -23,7 +23,7 @@ Route::prefix('auth')->group(function () {
     Route::post('login','AutenticadorController@login');
 
     Route::middleware('auth:api')->group(function () {
-        Route::get('logout','AutenticadorController@logout');
+        Route::post('logout','AutenticadorController@logout');
     });    
 });
 
