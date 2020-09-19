@@ -17,3 +17,14 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::prefix('auth')->group(function () {
+    Route::post('register','AutenticadorController@register');
+    Route::post('login','AutenticadorController@login');
+
+    Route::middleware('auth:api')->group(function () {
+        Route::get('logout','AutenticadorController@logout');
+    });    
+});
+
+Route::get('produtos','ProdutosController@index');
