@@ -1,13 +1,21 @@
 import React, {Component} from 'react';
 
+import Header from './myComponents/header'
+import Loader from './myComponents/loader'
+import Main from './myComponents/main'
 
-class app extends Component{
+
+class app extends Component{    
     constructor(props){
         super(props);
     }
     render(){
         return(
-            <h1>Teste</h1>
+            <div>
+                <Loader/>
+                <Header/>
+                <Main/>
+            </div>            
         )
     }
 }
