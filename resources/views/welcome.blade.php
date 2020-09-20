@@ -20,7 +20,8 @@
 	<link rel="stylesheet" href="{{asset('assets/css/themify-icons.css')}}">
 	<link rel="stylesheet" href="{{asset('assets/css/slick.css')}}">
 	<link rel="stylesheet" href="{{asset('assets/css/nice-select.css')}}">
-	<link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/mystyle.css')}}">
 
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
