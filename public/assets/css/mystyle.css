@@ -1,0 +1,36 @@
+.imgHome{
+    width: 70%!important;
+    padding-top: 50%;
+    border-radius: 45px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.tituloHome{
+    font-size: 30px!important;
+}
+
+.flip-container {
+    /* width: 300px;
+    height: 200px; */
+    perspective: 1000px;
+}
+
+.flipper{
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.flip-container:hover .flipper{
+    transform: rotateY(190deg);
+    /* se quiser uma animação na vertical,
+    troque por rotateX(180deg)
+    */
+}
+
+.front{
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
