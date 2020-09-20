@@ -70079,11 +70079,11 @@ var Header = /*#__PURE__*/function (_Component) {
         href: "index.html"
       }, "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "about.html"
-      }, "About")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "Sobre")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "gallery.html"
-      }, "Gallery")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "Minhas Fotos")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "services.html"
-      }, "Services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "Servi\xE7os")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "blog.html"
       }, "Blog"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "submenu"
@@ -70095,7 +70095,7 @@ var Header = /*#__PURE__*/function (_Component) {
         href: "elements.html"
       }, "Element")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "contact.html"
-      }, "Contact"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Me Contacte"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "header-right-btn f-right d-none d-lg-block ml-20"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "contact.html",
@@ -70239,6 +70239,10 @@ var main = /*#__PURE__*/function (_Component) {
   _createClass(main, [{
     key: "render",
     value: function render() {
+      var mystyle = {
+        paddingTop: "50%!important",
+        width: "50%!important"
+      };
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "slider-area "
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -70255,11 +70259,12 @@ var main = /*#__PURE__*/function (_Component) {
         className: "hero__caption"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         "data-animation": "fadeInUp",
-        "data-delay": ".4s"
-      }, "Desenvolvedor Web em sonhos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        "data-delay": ".4s",
+        className: "tituloHome"
+      }, "Software Developer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         "data-animation": "fadeInUp",
         "data-delay": ".6s"
-      }, "Alavancamos o seu Negocio! Otimizamos seu tempo."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Alavancamos o seu Neg\xF3cio!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "hero__btn"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "industries.html",
@@ -70267,10 +70272,12 @@ var main = /*#__PURE__*/function (_Component) {
         "data-animation": "fadeInLeft",
         "data-delay": ".8s"
       }, "Meu Portfolio")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "hero-man"
+        className: "hero-man flip-container "
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "assets/img/hero/hero_man1.png",
-        alt: ""
+        className: "imgHome flipper",
+        src: "assets/img/fabio/fabio4.jpg",
+        alt: "",
+        style: mystyle
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "single-slider slider-height d-flex align-items-center"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -70297,8 +70304,10 @@ var main = /*#__PURE__*/function (_Component) {
       }, "Watch Portfolio")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "hero-man"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "assets/img/hero/hero_man1.png",
-        alt: ""
+        className: "imgHome",
+        src: "assets/img/fabio/fabio4.jpg",
+        alt: "",
+        style: mystyle
       })))));
     }
   }]);
