@@ -23,9 +23,9 @@ class Header extends Component{
                                             <nav> 
                                                 <ul id="navigation">
                                                     <li><a href="index.html">Home</a></li>
-                                                    <li><a href="about.html">About</a></li>
-                                                    <li><a href="gallery.html">Gallery</a></li>
-                                                    <li><a href="services.html">Services</a></li>
+                                                    <li><a href="about.html">Sobre</a></li>
+                                                    <li><a href="gallery.html">Minhas Fotos</a></li>
+                                                    <li><a href="services.html">Serviços</a></li>
                                                     <li><a href="blog.html">Blog</a>
                                                         <ul className="submenu">
                                                             <li><a href="blog.html">Blog</a></li>
@@ -33,7 +33,7 @@ class Header extends Component{
                                                             <li><a href="elements.html">Element</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="contact.html">Contact</a></li>
+                                                    <li><a href="contact.html">Me Contacte</a></li>
                                                 </ul>
                                             </nav>
                                         </div>
