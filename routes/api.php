@@ -24,7 +24,10 @@ Route::prefix('auth')->group(function () {
 
     Route::middleware('auth:api')->group(function () {
         Route::post('logout','AutenticadorController@logout');
-    });    
+    });
+    
+    Route::get('register/active/{id}/{token}',
+        'AutenticadorController@ativarregistro');
 });
 
 Route::get('produtos','ProdutosController@index');
