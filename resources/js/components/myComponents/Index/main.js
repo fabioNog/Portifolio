@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
-export default class main extends Component {
+
+export default class Main extends Component {
     render() {
         const mystyle = {
             paddingTop: "50%!important",
@@ -14,7 +15,10 @@ export default class main extends Component {
                         <div className="row">
                             <div className="col-xl-7 col-lg-7 col-md-8">
                                 <div className="hero__caption">
-                                    <span data-animation="fadeInUp" data-delay=".4s" className="tituloHome">Software Developer</span>
+                                    <span data-animation="fadeInUp" data-delay=".4s" className="tituloHome">Desenvolvemos com muito amor 
+                                    <i className="fas fa-heart" style={{paddingLeft: "10px"}}></i>
+                                    <i className="fas fa-desktop" style={{paddingLeft: "10px"}}></i>
+                                    </span>
                                     <h1 data-animation="fadeInUp" data-delay=".6s">Alavancamos o seu Negócio!</h1>
                                     <div className="hero__btn">
                                         <a href="industries.html" className="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">Meu Portfolio</a>

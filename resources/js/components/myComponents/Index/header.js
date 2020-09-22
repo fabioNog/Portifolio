@@ -1,4 +1,5 @@
 import React , {Component} from "react";
+import {Link} from "react-router-dom";
 
 class Header extends Component{
     constructor(props){
@@ -14,7 +15,7 @@ class Header extends Component{
                             <div className="row align-items-center">                                
                                 <div className="col-xl-2 col-lg-2 col-md-1">
                                     <div className="logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt=""/></a>
+                                    <Link to="/"><img src="assets/img/logo/logo.png" alt=""/></Link>
                                     </div>
                                 </div>
                                 <div className="col-xl-10 col-lg-10 col-md-10">
@@ -22,8 +23,8 @@ class Header extends Component{
                                         <div className="main-menu f-right d-none d-lg-block">
                                             <nav> 
                                                 <ul id="navigation">
-                                                    <li><a href="index.html">Home</a></li>
-                                                    <li><a href="about.html">Sobre</a></li>
+                                                    <li><Link to="/">Home</Link></li>
+                                                    <li><Link to="/teste">Sobre</Link></li>
                                                     <li><a href="gallery.html">Minhas Fotos</a></li>
                                                     <li><a href="services.html">Serviços</a></li>
                                                     <li><a href="blog.html">Blog</a>
@@ -38,7 +39,10 @@ class Header extends Component{
                                             </nav>
                                         </div>
                                         <div className="header-right-btn f-right d-none d-lg-block ml-20">
-                                            <a href="contact.html" className="btn header-btn">Contact now</a>
+                                            <a href="contact.html" className="btn header-btn">Login</a>
+                                        </div>
+                                        <div className="header-right-btn f-right d-none d-lg-block ml-20">
+                                            <a href="contact.html" className="btn header-btn .btnRegister">Register</a>
                                         </div>
                                     </div>
                                 </div>   

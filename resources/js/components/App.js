@@ -1,10 +1,6 @@
 import React, {Component} from 'react';
 
-import Header from './myComponents/header'
-import Loader from './myComponents/loader'
-import Main from './myComponents/main'
-
-
+import Index from './myComponents/Index';
 class app extends Component{    
     constructor(props){
         super(props);
@@ -12,9 +8,7 @@ class app extends Component{
     render(){
         return(
             <div>
-                <Loader/>
-                <Header/>
-                <Main/>
+                <Index/>                
             </div>            
         )
     }

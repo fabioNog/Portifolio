@@ -1,5 +1,5 @@
 .imgHome{
-    width: 70%!important;
+    width: 50%!important;
     padding-top: 50%;
     border-radius: 45px;
     transition: transform 0.8s;
@@ -33,4 +33,9 @@
     position: absolute;
     transform: rotateY(180deg);
     backface-visibility: hidden;
+}
+
+.btnRegister{
+    background-color: white!important;
+    color: black!important;
 }
