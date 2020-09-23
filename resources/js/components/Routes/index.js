@@ -2,7 +2,7 @@ import React , {Component} from "react";
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import App from '../App';
-import Teste from '../Teste';
+/* import Teste from '../Teste'; */
 
 class MyRoutes extends Component{
     constructor(props){
@@ -14,10 +14,9 @@ class MyRoutes extends Component{
             <BrowserRouter>
                 <Switch>
                     <Route exact path="/" component={App}/>
-                    <Route  path="/teste" component={Teste}/>
+                    {/* <Route  path="/teste" component={Teste}/> */}
                 </Switch>
-            </BrowserRouter>
-            
+            </BrowserRouter>            
         )
     }
 }

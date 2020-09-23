@@ -22,9 +22,9 @@ export default class Index extends Component{
                 <Loader/>                
                 <Header/>
                 <Main/>
-                <TestimonialArea/>
-                <AboutArea/>
                 <HomeBlogArea/>
+                <TestimonialArea/>
+                <AboutArea/>                
                 <GalleryArea/>
                 {/* <BrandArea/> */}
                 <Footer/>   

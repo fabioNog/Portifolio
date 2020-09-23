@@ -2,16 +2,20 @@ import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import Routes from './Routes'
+
 import App from './App'
-import Teste from './Teste'
+import About from './myComponents/About';
+import Login from './myComponents/Login';
+
+/* My Routes */
+import Routes from './Routes'
 
 export default class Index extends Component{
     render(){
         return(
             <Router>
                 <Route exact path="/" component={App}/>
-                <Route path="/teste" component={Teste}/>
+                <Route path="/login" component={Login}/>
             </Router>
         )
     }
