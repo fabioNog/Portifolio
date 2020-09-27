@@ -1,15 +1,20 @@
-import React, { Component } from 'react';
 
-import {Link} from 'react-router-dom';
+import React, { Component,Redirect   } from 'react';
 
-function Login() {
+
+import { Link } from 'react-router-dom';
+
+import Login from './login';
+import Loader from './loader';
+
+
+function Index() {
 
     return (
-        <div>
-            <Link to='/' style={{color: "black"}}>Inicio</Link>   
-            <h1 style={{color: "black"}}>Hello World</h1>
+        <div>        
+            <Login />
         </div>
     );
 }
 
-export default Login
+export default Index;
