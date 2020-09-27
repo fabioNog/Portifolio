@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
+
+import Loader from './myComponents/Loader'
 
 import Index from './myComponents/Index';
 class app extends Component{    
@@ -7,7 +10,7 @@ class app extends Component{
     }
     render(){
         return(
-            <div>
+            <div>                
                 <Index/>                
             </div>            
         )
