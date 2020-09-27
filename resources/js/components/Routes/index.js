@@ -1,24 +1,30 @@
 import React , {Component} from "react";
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
+
+import Loader from '../myComponents/Loader'
+
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+    useRoutes,
+    Outlet
+  } from 'react-router-dom';    
 
 import App from '../App';
+import Login from '../myComponents/Login'
 /* import Teste from '../Teste'; */
 
-class MyRoutes extends Component{
-    constructor(props){
-        super(props);
-    }
-
-    render(){
-        return(
-            <BrowserRouter>
-                <Switch>
-                    <Route exact path="/" component={App}/>
-                    {/* <Route  path="/teste" component={Teste}/> */}
-                </Switch>
-            </BrowserRouter>            
-        )
-    }
-}
+function MyRoutes() {
+    return (
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="login" element={<Login />}/>
+        </Routes>
+      </BrowserRouter>
+    );
+  }
 
 export default MyRoutes;

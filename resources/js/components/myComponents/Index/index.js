@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import Header from './header';
-import Loader from './loader';
+/*   */
 import Main from './main';
 import AboutArea from './about-area';
 import HomeBlogArea from './home-blog-area';
@@ -11,6 +11,9 @@ import TestimonialArea from './testimonial-area';
 import Footer from './footer';
 import BackTop from './back-top';
 
+/* Importando meu Loader */
+import Loader from '../Loader'
+
 
 export default class Index extends Component{    
     constructor(props){
@@ -19,7 +22,7 @@ export default class Index extends Component{
     render(){
         return(
             <div>
-                <Loader/>                
+                <Loader/>             
                 <Header/>
                 <Main/>
                 <HomeBlogArea/>

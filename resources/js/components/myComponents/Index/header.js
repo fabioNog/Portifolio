@@ -37,7 +37,7 @@ function Header() {
                                     </nav>
                                 </div>
                                 <div className="header-right-btn f-right d-none d-lg-block ml-20">
-                                    <Link to="/login" className="btn header-btn">Login</Link>
+                                    <Link to="login" className="btn header-btn">Login</Link>
                                 </div>
                                 <div className="header-right-btn f-right d-none d-lg-block ml-20">
                                     <a href="contact.html" className="btn header-btn .btnRegister">Register</a>

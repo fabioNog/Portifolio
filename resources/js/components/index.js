@@ -10,16 +10,5 @@ import Login from './myComponents/Login';
 /* My Routes */
 import Routes from './Routes'
 
-export default class Index extends Component{
-    render(){
-        return(
-            <Router>
-                <Route exact path="/" component={App}/>
-                <Route path="/login" component={Login}/>
-            </Router>
-        )
-    }
-}
-
-ReactDOM.render(<Index />, document.getElementById('app'));
+ReactDOM.render(<Routes/>, document.getElementById('app'));
 
