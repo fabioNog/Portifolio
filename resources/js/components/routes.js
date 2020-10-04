@@ -2,7 +2,7 @@ import React , {Component} from "react";
 
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 
-import Loader from '../myComponents/Loader'
+import Loader from './myComponents/Loader'
 
 import {
     BrowserRouter,
@@ -12,8 +12,8 @@ import {
     Outlet
   } from 'react-router-dom';    
 
-import App from '../App';
-import Login from '../myComponents/Login'
+import App from './App';
+import Login from './myComponents/Login'
 /* import Teste from '../Teste'; */
 
 function MyRoutes() {
